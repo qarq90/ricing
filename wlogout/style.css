@@ -1,0 +1,73 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(24, 24, 24, 0.5);
+}
+
+button {
+	border-radius: 0;
+	text-decoration-color: #FFFFFF;
+	color: #fcf7d3;
+	background-color: #202020;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 96px;
+	font-size: 20px;
+	margin: 8px;
+}
+
+button:hover {
+	background-color: #fcf7d3;
+	color: #202020;
+}
+
+#lock {
+	background-image: url("icons/lock.svg");
+}
+
+#logout {
+	background-image: url("icons/logout.svg");
+}
+
+#suspend {
+	background-image: url("icons/suspend.svg");
+}
+
+#hibernate {
+	background-image: url("icons/hibernate.svg");
+}
+
+#shutdown {
+	background-image: url("icons/shutdown.svg");
+}
+
+#reboot {
+	background-image: url("icons/reboot.svg");
+}
+
+#lock:hover {
+	background-image: url("icons/lock-hover.svg");
+}
+
+#logout:hover {
+	background-image: url("icons/logout-hover.svg");
+}
+
+#suspend:hover {
+	background-image: url("icons/suspend-hover.svg");
+}
+
+#hibernate:hover {
+	background-image: url("icons/hibernate-hover.svg");
+}
+
+#shutdown:hover {
+	background-image: url("icons/shutdown-hover.svg");
+}
+
+#reboot:hover {
+	background-image: url("icons/reboot-hover.svg");
+}
